@@ -1,0 +1,14 @@
+{
+  "name": "json-server-snoop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "aindrajaya",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "0.16.2"
+  }
+}
