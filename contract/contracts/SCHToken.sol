@@ -1,5 +1,5 @@
-pragma solidity >=0.4.26 <0.9.0;
-
+pragma solidity >=0.4.22 <0.9.0;
+//pragma solidity ^0.4.26;
 
 import './SafeMath.sol';
 import './ERC20Standard.sol';
@@ -31,6 +31,7 @@ contract SCHToken is ERC20Standard, Ownable {
     }
 
     // If ether is sent to this address, send it back
+    // function() public { revert(); }
     function() public { revert(); }
 
     // Check transferable state before transfer
@@ -92,7 +93,7 @@ contract SCHToken is ERC20Standard, Ownable {
     bool public transferable = true;
 
     // Amount of supplied tokens is constant and equals to 1 000 000 000 SCH
-    uint256 private constant __SCH_LIMIT = 1000000000000;
+    uint256 private constant __SCH_LIMIT = 1000000;
 }
 
 
