@@ -1,0 +1,9 @@
+/.metadata/
+*.class
+/demo
+/node_modules
+/ganache_data
+/build
+/.project
+/package-lock.json
+/folder
