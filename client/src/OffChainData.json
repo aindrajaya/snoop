@@ -1,0 +1,86 @@
+{
+    "active": [
+        {
+            "property": {
+                "address": {
+                    "street": "0x77ca271bc452a66b8c...",
+                    "city": "Unknown",
+                    "state": "NA"
+                },
+                "imageUrl": "transact1.png"
+            },
+            "moveInDate": "25 June 2021",
+            "rent": 0.44,
+            "deposit": {
+                "amount": 0.72,
+                "type": "First, Last & Security"
+            },
+            "status": {
+                "message": "Awaiting Approval",
+                "level": 2 
+            }
+        },
+        {
+            "property": {
+                "address": {
+                    "street": "0x83425366457cb3bca4...",
+                    "city": "Unknown",
+                    "state": "NA"
+                },
+                "imageUrl": "transact2.png"
+            },
+            "moveInDate": "5 June 2021",
+            "rent": 1.57,
+            "deposit": {
+                "amount": 1.35,
+                "type": "First & Last"
+            },
+            "status": {
+                "message": "Payment Processed",
+                "level": 3 
+            }
+        }
+    ],
+    "closed": [
+        {
+            "property": {
+                "address": {
+                    "street": "0xa021916263daa9e34b...",
+                    "city": "Unknown",
+                    "state": "NA"
+                },
+                "imageUrl": "transact3.png"
+            },
+            "moveInDate": "7 March 2021",
+            "rent": 0.77,
+            "deposit": {
+                "amount": 6.977,
+                "type": "Complete"
+            },
+            "status": {
+                "message": "Payment Processed",
+                "level": 3 
+            }
+        },
+        {
+            "property": {
+                "address": {
+                    "street": "0x1390bd450b9d79fc897...",
+                    "city": "Unknown",
+                    "state": "NA"
+                },
+                "imageUrl": "transact4.png"
+            },
+            "moveInDate": "11 December 2020",
+            "rent": 2,
+            "deposit": {
+                "amount": 0.7577,
+                "type": "First, Last & Security"
+            },
+            "status": {
+                "message": "Rejected: No Payment Received",
+                "level": 1 
+            }
+        }
+    ]
+}
